@@ -99,26 +99,3 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
-.price-mrp {
-  color: #73717e;
-}
-
-@-moz-document url-prefix() {
-  .price--on-sale .price-item--regular,
-  wishlist-product-card .wk-compare-price {
-    position: relative;
-    text-decoration: none;
-  }
-  .price--on-sale .price-item--regular::after,
-  wishlist-product-card .wk-compare-price::after{
-    content: "";
-    height: 1px;
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    background-color: #8e8d99;
-  }
-  wishlist-product-card .wk-compare-price::after {
-    background-color: #000;
-  }
-}

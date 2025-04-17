@@ -58,20 +58,6 @@ function enableZoomOnHover(zoomRatio) {
       moveWithHover(image, event, zoomRatio);
     };
   });
-
-  const imagesNew = document.querySelectorAll('.image-magnify-hover-new');
- 
-  imagesNew.forEach((image) => {
-
-    image.addEventListener('mouseover', function(event) {
-    //image.mousemove = (event) => {
-      //console.log('image hover');
-      magnify(image, zoomRatio);
-      moveWithHover(image, event, zoomRatio);
-    });
-    
-  });
-  
 }
 
-enableZoomOnHover(1.5);
+enableZoomOnHover(2);

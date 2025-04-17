@@ -1,7 +1,7 @@
 @media screen and (max-width: 749px) {
   .collection .grid__item:only-child {
     flex: 0 0 100%;
-    /* max-width: 100%; */
+    max-width: 100%;
   }
 }
 
@@ -12,7 +12,7 @@
 }
 
 .collection .loading-overlay {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   width: 1.8rem;
 }
@@ -96,9 +96,4 @@
 
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
-}
-.collection_custom_title_description_new p {
-    font-size: 14px;
-    line-height: 1.2;
-    margin: 16px 0;
 }

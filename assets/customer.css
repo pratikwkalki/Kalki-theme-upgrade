@@ -302,16 +302,16 @@
   text-decoration: none;
 }
 
-.customer .pagination li :first-child svg {
+.customer .pagination li :first-child .svg-wrapper {
   height: 0.6rem;
 }
 
-.customer .pagination li:first-of-type svg {
+.customer .pagination li:first-of-type .svg-wrapper {
   margin-left: -0.2rem;
   transform: rotate(90deg);
 }
 
-.customer .pagination li:last-of-type svg {
+.customer .pagination li:last-of-type .svg-wrapper {
   margin-right: -0.2rem;
   transform: rotate(-90deg);
 }
@@ -463,7 +463,7 @@
   align-items: center;
 }
 
-.account a svg {
+.account a .svg-wrapper {
   width: 1.5rem;
   margin-bottom: -0.03rem;
   margin-right: 1rem;
@@ -620,7 +620,7 @@
   line-height: calc(1 + 0.2 / var(--font-body-scale));
 }
 
-.order svg {
+.order .svg-wrapper {
   width: 1.1rem;
   color: rgb(var(--color-foreground));
   margin-right: 0.5rem;
@@ -697,12 +697,7 @@ label[for='AddressProvinceNew'] {
 }
 
 li[data-address] {
-  margin-top: 2rem;
-  max-width: calc(50% - 20px);
-  flex: calc(50% - 20px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-top: 5rem;
 }
 
 .addresses [aria-expanded='false'] ~ div[id] {
@@ -757,133 +752,4 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7),
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
-}
-.addresses form > div:nth-of-type(7),
-.addresses form > div:nth-of-type(7) + div[id] {
-  margin-top: 1.5rem;
-}
-.customer .field .iti--show-selected-dial-code {
-  width: 100%;
-}
-.customer .field[js-phone-field-wrapper] label {
-  padding-left: 90px;
-  transition: all 0.3s linear;
-}
-.customer .iti--show-selected-dial-code ul {
-  padding-left: 0;
-}
-.customer .field[js-phone-field-wrapper].active label {
-  color: #6e6e6e;
-  font-size: 11px;
-  top: 7px;
-}
-.customer .address_buttons_new {
-  position: unset;
-  margin-top: 18px;
-}
-.customer .address_buttons_new .button_login_new {
-  margin: 0;
-  min-width: unset;
-  width: 100%;
-  max-width: calc(50% - 8px);
-  flex: calc(50% - 8px);
-}
-
-@media screen and (max-width: 990px) {
-  .customer li[data-address] {
-    max-width: 100%;
-    flex: 100%;
-  }
-}
-
-.order_payment_right_new .js-return-exchange.button {
-    height: auto;
-    min-width: 128px;
-    background: #223330;
-    color: #fff !important;
-    text-decoration: none;
-    padding: 2px 20px 0;
-    line-height: 34px;
-    border-radius: 6px;
-    min-height: auto;
-    margin-top: 0;
-    font-size: 14px;
-}
-.order_payment_right_new {
-    text-align: right;
-}
-.order_payment_right_new p.js-return-exchange.disabled {
-    margin-bottom: 5px;
-}
-.order_details_title_new .order-btn-wrap .js-return-exchange {
-  color: #223330 !important;
-}
-.order_details_title_new .order-btn-wrap .js-return-exchange:hover {
-  color: #fff !important;
-}
-.order_details_new .order-btn-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    justify-content: flex-end;
-}
-.Customer_register_template_innerleft_title_new {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 4px 20px;
-}
-.Customer_register_template_innerleft_title_new p {
-    color: #fff;
-    font-size: 20px;
-    color: #fff;
-    line-height: 1.4;
-    margin: 15px 0;
-}
-.customer.addresses [name="address[country]"] option[value="India"] {
-    display: block;
-}
-.customer.addresses [name="address[country]"] option {
-    display: none;
-}
-.customer select+svg {
-    width: 13px;
-    height: 7px;
-}
-
-@media screen and (max-width: 991px) {
-  .order_details_title_new {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  .order_details_new .order-btn-wrap {
-    justify-content: flex-start;
-  }
-}
-@media screen and (max-width: 749px) {
-  .Customer_register_template_innerleft_title_new p {
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  .Customer_register_template_innerleft_title_new {
-    padding: 1px 10px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .order_payment_right_new {
-    text-align: right;
-    max-width: 57%;
-  }
-  .order_payment_right_new p.js-return-exchange.disabled {
-    font-size: 14px;
-  }
-  .order_payment_right_new .button {
-    font-size: 13px !important;
-    padding: 10px 14px !important;
-    line-height: normal !important;
-  }
-  .order_payment_right_new .js-return-exchange.button {
-    margin-bottom: 8px;
-  }
-  .order_payment_left_in_new {
-    font-size: 14px;
-  }
 }

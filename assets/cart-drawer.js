@@ -9,20 +9,16 @@ class CartDrawer extends HTMLElement {
 
   setHeaderCartIconAccessibility() {
     const cartLink = document.querySelector('#cart-icon-bubble');
+    if (!cartLink) return;
+
     cartLink.setAttribute('role', 'button');
     cartLink.setAttribute('aria-haspopup', 'dialog');
     cartLink.addEventListener('click', (event) => {
-      const cartCountEl = document.querySelector(".cart-count-bubble");
-      if(!cartCountEl) return;
-
       event.preventDefault();
       this.open(cartLink);
     });
     cartLink.addEventListener('keydown', (event) => {
       if (event.code.toUpperCase() === 'SPACE') {
-        const cartCountEl = document.querySelector(".cart-count-bubble");
-        if(!cartCountEl) return;
-        
         event.preventDefault();
         this.open(cartLink);
       }
@@ -82,6 +78,8 @@ class CartDrawer extends HTMLElement {
       const sectionElement = section.selector
         ? document.querySelector(section.selector)
         : document.getElementById(section.id);
+
+      if (!sectionElement) return;
       sectionElement.innerHTML = this.getSectionInnerHTML(parsedState.sections[section.id], section.selector);
     });
 

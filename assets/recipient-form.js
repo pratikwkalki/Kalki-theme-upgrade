@@ -31,9 +31,7 @@ if (!customElements.get('recipient-form')) {
 
       connectedCallback() {
         this.cartUpdateUnsubscriber = subscribe(PUB_SUB_EVENTS.cartUpdate, (event) => {
-          console.log('event', event)
-          console.log('event.productVariantId', event.productVariantId, this.currentProductVariantId)
-          if (event.source === 'product-form' && event.productVariantId && event.productVariantId.toString() === this.currentProductVariantId) {
+          if (event.source === 'product-form' && event.productVariantId.toString() === this.currentProductVariantId) {
             this.resetRecipientForm();
           }
         });
@@ -45,9 +43,7 @@ if (!customElements.get('recipient-form')) {
         });
 
         this.cartUpdateUnsubscriber = subscribe(PUB_SUB_EVENTS.cartError, (event) => {
-          console.log('event', event)
-          console.log('event.productVariantId', event.productVariantId, this.currentProductVariantId)
-          if (event.source === 'product-form' && event.productVariantId && event.productVariantId.toString() === this.currentProductVariantId) {
+          if (event.source === 'product-form' && event.productVariantId.toString() === this.currentProductVariantId) {
             this.displayErrorMessage(event.message, event.errors);
           }
         });
@@ -93,12 +89,10 @@ if (!customElements.get('recipient-form')) {
 
       enableInputFields() {
         this.disableableFields().forEach((field) => (field.disabled = false));
-        document.querySelector('.recipient-fields-wrap').classList.remove('hidden');
       }
 
       disableInputFields() {
         this.disableableFields().forEach((field) => (field.disabled = true));
-        document.querySelector('.recipient-fields-wrap').classList.add('hidden');
       }
 
       displayErrorMessage(title, body) {

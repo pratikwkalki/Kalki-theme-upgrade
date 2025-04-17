@@ -27,10 +27,8 @@ class DetailsModal extends HTMLElement {
   open(event) {
     this.onBodyClickEvent = this.onBodyClickEvent || this.onBodyClick.bind(this);
     event.target.closest('details').setAttribute('open', true);
-    if (!event.target.closest('details-modal').classList.contains('header__search')) {
-      document.body.classList.add('overflow-hidden');
-    }
     document.body.addEventListener('click', this.onBodyClickEvent);
+    document.body.classList.add('overflow-hidden');
 
     trapFocus(
       this.detailsContainer.querySelector('[tabindex="-1"]'),

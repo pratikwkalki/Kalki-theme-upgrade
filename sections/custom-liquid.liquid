@@ -11,17 +11,11 @@
     }
   }
 {%- endstyle -%}
-{{ 'summerfest-offer-banner.css' | asset_url | stylesheet_tag }}
-
-
-    <div class="page-width">
-                <div class="color-{{ section.settings.color_scheme }} gradient">
-                  <div class="section-{{ section.id }}-padding">
-                    {{ section.settings.custom_liquid }}
-                  </div>
-                </div>
-    </div>
-
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+    {{ section.settings.custom_liquid }}
+  </div>
+</div>
 
 {% schema %}
 {
