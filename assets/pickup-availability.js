@@ -13,8 +13,6 @@ if (!customElements.get('pickup-availability')) {
       }
 
       fetchAvailability(variantId) {
-        if (!variantId) return;
-
         let rootUrl = this.dataset.rootUrl;
         if (!rootUrl.endsWith('/')) {
           rootUrl = rootUrl + '/';
@@ -30,30 +28,21 @@ if (!customElements.get('pickup-availability')) {
             this.renderPreview(sectionInnerHTML);
           })
           .catch((e) => {
-            const button = this.querySelector('button');
+            const button = this.querySelector('#ShowPickupAvailabilityDrawer');
             if (button) button.removeEventListener('click', this.onClickRefreshList);
             this.renderError();
           });
       }
 
-      onClickRefreshList() {
+      onClickRefreshList(evt) {
         this.fetchAvailability(this.dataset.variantId);
-      }
-
-      update(variant) {
-        if (variant?.available) {
-          this.fetchAvailability(variant.id);
-        } else {
-          this.removeAttribute('available');
-          this.innerHTML = '';
-        }
       }
 
       renderError() {
         this.innerHTML = '';
         this.appendChild(this.errorHtml);
 
-        this.querySelector('button').addEventListener('click', this.onClickRefreshList);
+        this.querySelector('#ShowPickupAvailabilityDrawer').addEventListener('click', this.onClickRefreshList);
       }
 
       renderPreview(sectionInnerHTML) {
@@ -74,7 +63,7 @@ if (!customElements.get('pickup-availability')) {
           document.querySelector('pickup-availability-drawer').classList.add(colorClass);
         });
 
-        const button = this.querySelector('button');
+        const button = this.querySelector('#ShowPickupAvailabilityDrawer');
         if (button)
           button.addEventListener('click', (evt) => {
             document.querySelector('pickup-availability-drawer').show(evt.target);

@@ -11,6 +11,65 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "header_announcement_bar_new_UBfXFY": {
+      "type": "Header-announcement-bar-new",
+      "blocks": {
+        "information_AizrC4": {
+          "type": "information",
+          "settings": {
+            "title": "<p>Styled more than 100,000 Clients</p>",
+            "icon": "shopify://shop_images/clients-icon.svg"
+          }
+        },
+        "information_8RY7Ek": {
+          "type": "information",
+          "settings": {
+            "title": "<p>Seamless Video Shopping Experience</p>",
+            "icon": "shopify://shop_images/video-icon.svg"
+          }
+        },
+        "information_BWRaFN": {
+          "type": "information",
+          "settings": {
+            "title": "<p>Designer Quality styles</p>",
+            "icon": "shopify://shop_images/cloth-icon.svg"
+          }
+        },
+        "information_jXBaC7": {
+          "type": "information",
+          "settings": {
+            "title": "<p>Free Shipping within India</p>",
+            "icon": "shopify://shop_images/truck-icon.svg"
+          }
+        },
+        "information_piacji": {
+          "type": "information",
+          "settings": {
+            "title": "<p>5 Days Easy returns</p>",
+            "icon": "shopify://shop_images/truck-icon.svg"
+          }
+        },
+        "information_AmbDXC": {
+          "type": "information",
+          "settings": {
+            "title": "<p>Shipping Happiness to 200 Countries (FREE Over US$200)</p>",
+            "icon": "shopify://shop_images/glob-icon.svg"
+          }
+        }
+      },
+      "block_order": [
+        "information_AizrC4",
+        "information_8RY7Ek",
+        "information_BWRaFN",
+        "information_jXBaC7",
+        "information_piacji",
+        "information_AmbDXC"
+      ],
+      "settings": {
+        "main_back_color": "#000000",
+        "main_text_color": "#ffffff"
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -81,9 +140,37 @@
         "login_massage": "SignIn / SignUp to avail the offers and coupon codes",
         "after_login_massage": "Join and become part of our 5k+ virtual shopping circle!"
       }
+    },
+    "customer_popup": {
+      "type": "customer-popup",
+      "disabled": true,
+      "settings": {
+        "main_heading_text": "<p>Register & Be A Part Of The KALKI Circle!</p>",
+        "main_information_text": "Enjoy exclusive benefits like:\n- Exclusive early collection showcase\n- Access amazing offers, discounts and more\n\nJoin Now!",
+        "main_use_code_text": "",
+        "main_desktop_full_image": "shopify://shop_images/5-thankyou-page-banner-size-3-3-25-400X700_a042f24d-3c04-4bb7-a6da-58f706f8f756.jpg",
+        "main_mobile_full_image": "shopify://shop_images/1-summer-house-collection-page-mo-27-03-25-visit-now_2_285e15f9-3622-4bf7-a27c-7b87279092b3.jpg",
+        "main_right_information_text_1": "<p>Sign in so you can save items to your wishlists, track your orders, and check out faster!</p>",
+        "main_top_information_text": "<p>Welcome to Kalki! It's quick and easy <br/>to set up an account</p>"
+      }
+    },
+    "app_link_popup_dpWC4J": {
+      "type": "app-link-popup",
+      "disabled": true,
+      "settings": {
+        "title": "Download the App!",
+        "description": "For Better Kalki Shopping Experience !",
+        "playstore_link_label": "Download on Play Store",
+        "playstore_link": "https://play.google.com/store/apps/details?id=com.shopgate.android.kalkifash&hl=en",
+        "appstore_link_label": "Download on App Store",
+        "appstore_link": "https://apps.apple.com/app/kalkifashion-mobile/id950206786"
+      }
     }
   },
   "order": [
+    "header_announcement_bar_new_UBfXFY",
     "header",
+    "customer_popup",
+    "app_link_popup_dpWC4J"
   ]
 }

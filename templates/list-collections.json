@@ -1,17 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "main": {
-      "type": "main-list-collections",
+    "product_breadcrumb_new_cxRBEh": {
+      "type": "Product-breadcrumb-new",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
+        "main_background_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "List-collections-template-new",
+      "blocks": {
+        "information_84iadJ": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#faebe1",
+            "select_collection_display": "eid-collection",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/mehfilen-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/mehfilen-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/mehfilen-16-04-25-logo.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_Phngxj": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#e8f9e8",
+            "select_collection_display": "engagement-collection",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/engagement-collection-banner-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/engagement-collection-banner-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/engagement-collection-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_6kqGhi": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#f1ebf5",
+            "select_collection_display": "haldi-and-mehendi-edit",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/haldi-mehendi-banner-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/haldi-mehendi-banner-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/haldi-mehendi-Logo-16-04-25-1.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_HVM9Uc": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#faebe1",
+            "select_collection_display": "cocktail-and-sangeet-edit",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/sangeet-cocktail-banner-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/sangeet-cocktail-banner-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/sangeet-cocktail-Logo-16-04-25-1.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_bJ39rF": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#e8f9e8",
+            "select_collection_display": "wedding-and-reception-edit",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/wedding-banner-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/wedding-banner-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/wedding-Logo-16-04-25-1.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_hXLaB8": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#f1ebf5",
+            "select_collection_display": "mushk-wedding-couture-2024",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/mushk-couture-24-banner-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/mushk-couture-24-banner-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/mushk-couture-24-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_gTwLFr": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#faebe1",
+            "select_collection_display": "the-atelier-couture-2024",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/the-atelier-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/the-atelier-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/the-atelier-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_PPCafF": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#e8f9e8",
+            "select_collection_display": "bride-baraat-viii",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/bride-baraat-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/bride-baraat-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/bride-baraat-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_Hb7EhJ": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#f1ebf5",
+            "select_collection_display": "inara",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/janvi-kapoor-inara-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/janvi-kapoor-inara-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/janvi-kapoor-inara-Logo-1-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_QYpQ9i": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#faebe1",
+            "select_collection_display": "lakme-fashion-week-collection",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/zayra-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/zayra-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/zayra-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_Dehpj3": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#e8f9e8",
+            "select_collection_display": "zoha",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/zoha-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/zoha-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/zoha-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_77EDfL": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#f1ebf5",
+            "select_collection_display": "noor",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/noor-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/noor-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/Noor-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_AhjQmy": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#faebe1",
+            "select_collection_display": "the-shimmers",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/the-shimmers-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/the-shimmers-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/the-shimmers-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_hLbDea": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#e8f9e8",
+            "select_collection_display": "rumi-ramp-collection",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/rumi-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/rumi-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/rumi-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        },
+        "information_K9Gh4a": {
+          "type": "information",
+          "settings": {
+            "inner_background_color": "#f1ebf5",
+            "select_collection_display": "zehra-the-bridesmaid-edit",
+            "select_product_display": 5,
+            "main_desktop_image": "shopify://shop_images/zehra-16-04-25.jpg",
+            "main_mobile_image": "shopify://shop_images/zehra-16-04-25.jpg",
+            "logo_image": "shopify://shop_images/zehra-Logo-16-04-25.png",
+            "main_sub_heading_text": "",
+            "main_button_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "information_84iadJ",
+        "information_Phngxj",
+        "information_6kqGhi",
+        "information_HVM9Uc",
+        "information_bJ39rF",
+        "information_hXLaB8",
+        "information_gTwLFr",
+        "information_PPCafF",
+        "information_Hb7EhJ",
+        "information_QYpQ9i",
+        "information_Dehpj3",
+        "information_77EDfL",
+        "information_AhjQmy",
+        "information_hLbDea",
+        "information_K9Gh4a"
+      ],
+      "settings": {
+        "main_background_color": "#ffffff",
+        "main_heading_text": "See All Collections"
       }
     }
   },
   "order": [
+    "product_breadcrumb_new_cxRBEh",
     "main"
   ]
 }

@@ -1,3 +1,4 @@
+console.log('TEST DEMO');
 const selectors = {
   customerAddresses: '[data-customer-addresses]',
   addressCountrySelect: '[data-address-country-select]',
